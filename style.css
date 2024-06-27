@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alfa Slab One", serif;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.orange{
+    color: #FF6900
+}
+
+.red{
+    color: #E80D0D;
+}
+
+header{
+    display: flex;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 1rem;
+
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.start{
+    background-image: url(img/Menu\ 2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0 6rem;
+}
+
+.start .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.start-text .title{
+    font-size: 84px;
+    color: #fff;
+    line-height: 80px;
+    padding-bottom: 2rem;
+}
+
+.horario{
+    margin-top: 2rem 0;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+
+.apartir{
+    margin-left: 2rem;
+    color: #Fff;
+    font-size: 24px;
+}
+
+.contato-header{
+    display: flex;
+}
+
+.contato-header img{
+    margin-left: 1rem;
+}
+
+.exclusividade{
+    background-image: url(img/Rectangle\ 11882.png);
+    padding: 4rem 0;
+}
+
+.exclusividade .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-exclusividade p{
+    text-align: center;
+
+}
+
+.text-exclusividade h2{
+    font-size: 36px;
+}
+
+.pizzas{
+    padding: 6rem 0;
+}
+
+.pizzas h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.pizzas .container{
+    width: 80%;
+    padding: 3rem 0;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.single-pizza{
+    box-shadow: 4px 4px 4px #ccc;
+    width: 30%;
+    text-align: center;
+    border-radius: .7rem;
+    padding: 1rem;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.single-pizza:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.preco-pizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preco-pizza a{
+    background-color: #D02828;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    border-radius: .3rem;
+    text-decoration: none;
+}
+
+.preco-pizza p{
+    margin-left: .5rem;
+}
+
+.single-pizza h3{
+    padding: .5rem 0;
+}
+
+.topic-vant{
+    display: flex;
+    padding: .5rem 0;
+    align-items: center;
+}
+
+.vantagens .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pre-contato{
+    margin: 4rem 0;
+    background-image: url(img/Rectangle\ 11882.png);
+    padding: 3rem 0;
+}
+
+.pre-contato .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    font-size: 48px;
+}
+
+.pre-contato h2{
+    text-align: center;
+}
+
+.pre-contato img{
+    position: absolute;
+    top: -100px;
+    
+}
+
+.pre-text{
+    width: 50%;
+    margin-left: auto;
+}
+
+.contato{
+    padding: 6rem 0 1rem;
+}
+
+.contato h2{
+    font-size: 20px ;
+    font-weight: 400 !important;
+    text-align: center;
+}
+
+.contato iframe{
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.est{
+    display: flex;
+    justify-content: space-around;
+}
+
+.estamos{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.estamos img{
+    margin-left: .5rem;
+}
+
+.pagamento{
+    display: flex;
+    align-items: center;
+}
+
+.pagamento img{
+    width: 50px;
+    margin: 0 .5rem;
+}
